@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#heroSection {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(images/hero-image.jpeg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
