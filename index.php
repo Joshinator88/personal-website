@@ -15,16 +15,16 @@
 <header>
 <img src="" alt="Logo of my website">
     <nav>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul>
+        
+        <div class="row">
+        <ul class="menuItems">
             <!-- the blog is on another page but the about me and project links scroll down to the specific sections -->
             <li><a href="blog.php">Blog</a></li>
-            <li>About me</li>
-            <li>Projects</li>
+            <li><a href="blog.php">About me</a></li>
+            <li><a href="blog.php">Projects</a></li>
+        </ul>
+
+        <ul>    
             <li>
                 <a href="https://github.com/Joshinator88">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 30 30">
@@ -47,9 +47,23 @@
                 </a>
             </li>
         </ul>
+        <div class="hamburger" id="hamburgerToggler">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        </div>
+
+        <ul class="menuItemsBurger" id="menuItemList">
+            <!-- the blog is on another page but the about me and project links scroll down to the specific sections -->
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="blog.php">About me</a></li>
+            <li><a href="blog.php">Projects</a></li>
+        </ul>
+        
     </nav>
 </header>
-    <main>
+    <main id="main">
         <!-- een sectie waarin ik mijzelf voorstel -->
         <section class="aboutMe">
             <div>
